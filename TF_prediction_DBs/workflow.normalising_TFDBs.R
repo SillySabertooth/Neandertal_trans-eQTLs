@@ -12,7 +12,7 @@ package.check <- lapply(
   }
 )
 
-# setwd("~/") # 
+setwd("~/Neandertal_trans-eQTLs/TF_prediction_DBs")
 
 
 load("func_and_data_for_change_gene_names.RData")

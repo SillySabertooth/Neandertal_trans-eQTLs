@@ -13,7 +13,7 @@ package.check <- lapply(
 )
 
 
-# setwd("~/")
+setwd("~/Neandertal_trans-eQTLs/TF_prediction_DBs")
 
 # merge Harmonizome databases, write raw result into a file
 # lasts long, better to laucnh as a script

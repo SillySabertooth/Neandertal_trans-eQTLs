@@ -8,6 +8,7 @@ b) collapsing_SNPs_R2 includes an algorithm for getting a dataset of R2 unrelate
 c) TF_prediction_DBs files describe creating a concordant TFs database from Human_TFTG and Harmonizome databases <br>
 d) TF_target_enrichment has code made to test TF target genes enrichment in Neandertal deserts # need to check <br>
 e) aSNPs_proportion_enrichment shows an enrichment analysis of significant trans-eQTLs of Neandertal origin in eQTLGen data #still raw, need comments <br>
+f) effect_sizes-cTFs_GTEx_eQTLGen folder includes an correlation analysis of effect sizes between eQTLGen and GTEx cis-eQTLs #need to update <br>
 <br>
 <br>
 

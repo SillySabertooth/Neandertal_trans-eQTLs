@@ -10,5 +10,4 @@ d) TF_target_enrichment has code made to test TF target genes enrichment in Nean
 e) aSNPs_proportion_enrichment shows an enrichment analysis of significant trans-eQTLs of Neandertal origin in eQTLGen data #still raw, need comments <br>
 f) effect_sizes-cTFs_GTEx_eQTLGen folder includes an correlation analysis of effect sizes between eQTLGen and GTEx cis-eQTLs for shared cTFs <br>
 
-<br>
 *it might be a good idea to use Rstudio to investigate the repository*

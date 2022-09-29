@@ -1,0 +1,2 @@
+The **snippet.target_enrich_v2.R** includes implementations of enrichment analyses of predicted targets in different regions, <br>
+these analyses are linked to "*The regulatory reach of predicted trans-eQTLs*" section and "*Fig. 2 panels a and b*" in the **Results**

@@ -24,7 +24,7 @@ load("func_and_data_for_change_gene_names.RData")
 
 # Human TFTG processing; different double-checks and merges with manifest and the reference table of synonyms
 
-mart_tgft <- fread("Human_TFTG_DB.tsv")
+mart_tgft <- fread("Human_TFTG_DB.tsv.gz")
 manifest <- fread("humanTFMotifEntrezMappings.csv", select = 1:2) %>% unique()
 
 tmp <- merge(syn_var, manifest, all.y = T)
@@ -105,7 +105,7 @@ tgft <- fread("Human_TFTG_DB_v1.tsv")
 
 
 # Harmonizome processing; different double-checks and merges between subdatabases and the reference table of synonyms
-harmony <- fread("Harmonizome_TFtargets.tsv")
+harmony <- fread("Harmonizome_TFtargets.tsv.gz")
 
 harmony$all <- apply(harmony[,3:8], 1, function(x) toString(na.omit(x)))
 

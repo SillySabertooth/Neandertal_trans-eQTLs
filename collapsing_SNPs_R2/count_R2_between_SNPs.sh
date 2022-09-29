@@ -7,9 +7,9 @@
 ######
 
 #path=~/genomes/ #prove some path to 1kG files
-file=cTFs_GTEx.aSNPs.to_collapse.tsv #
+file=cTFs_GTEx.aSNPs.to_collapse.tsv # a dataset containes aSNPs that are linked to TFs
 
-tail -n+2 $file | sort -k1,1 -k2,2 > variants.chr_pos # in the resulting file it should be chr and pos
+tail -n+2 $file | sort -k1,1 -k2,2 > variants.chr_pos # in the resulting file it should be only chr and pos columns, hg19
 
 #chr=1 #debugging
 #subset all the chromosomes

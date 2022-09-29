@@ -12,6 +12,7 @@ package.check <- lapply(
   }
 )
 
+# version.string R version 3.6.3 (2020-02-29)
 # setwd("~/") # 
 # args <- c("chr12_56740682.for_r2.tmp.geno.ld","12","56740682") # for the debugging
 
@@ -32,7 +33,7 @@ fake_str <- tibble(CHR=args[2],
 plotty <- rbind(data,fake_str)
 
 
-# add the fiest heatmap to the plotting list  
+# add the first heatmap to the plotting list  
 plot_list = list()
 i <- 1
 plot_list[[i]] = ggplot(data = plotty, aes(x=as.character(POS1), y=as.character(POS2), fill=R2)) + 
@@ -123,7 +124,7 @@ for (tr in c(0.5,0.8)){
                    HowMuchFivePosBefore = pos_down_tail,
                    HowMuchFivePosAfter = pos_up_tail)
   # the last statistic looks at whether the positions that lay right around the chosen haplotype have r2 with our given aSNP less than the threshold
-  # if yes, then it will be counted, so 5 is good and means that all was good
+  # if yes, then it will be counted, so 5 is good and 0 is bad
   
   name <- paste0(args[2],"_",args[3],".",pos_down,"_",pos_up,".R2_",tr) # create big name
   

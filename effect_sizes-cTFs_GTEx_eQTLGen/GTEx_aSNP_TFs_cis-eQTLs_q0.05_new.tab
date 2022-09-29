@@ -1,4 +1,4 @@
-phenotype_id	num_var	beta_shape1	beta_shape2	true_df	pval_true_df	variant_id	tss_distance	ma_samples	ma_count	maf	ref_factor	pval_nominal	slope	slope_se	pval_perm	pval_beta	qval	pval_nominal_threshold			
+phenotype_id	num_var	beta_shape1	beta_shape2	true_df	pval_true_df	variant_id	tss_distance	ma_samples	ma_count	maf	ref_factor	pval_nominal	slope	slope_se	pval_perm	pval_beta	qval	pval_nominal_threshold	tissue	gene	hg19
 ENSG00000166478.9	6319	1.02925	403.288	276.261	1.36453e-06	chr11_9388086_G_T_b38	-72617	46	49	0.062982	1	1.75645e-07	0.334113	0.0625682	0.00059994	0.000436178	0.000617684	0.000167259	Adipose_Visceral_Omentum	ZNF143	11_9409633
 ENSG00000166478.9	6319	1.0456	415.717	235.758	3.53097e-14	chr11_9487805_G_C_b38	27102	46	48	0.0729483	1	3.08784e-16	0.646699	0.0743132	9.999e-05	4.61423e-12	1.56659e-11	0.000173739	Artery_Aorta	ZNF143	11_9509352
 ENSG00000166478.9	6319	1.06374	419.935	116.337	3.7455e-09	chr11_9494639_T_C_b38	33936	30	33	0.0942857	1	2.12286e-10	0.531511	0.0773434	9.999e-05	6.52452e-07	4.86065e-06	6.43916e-05	Artery_Coronary	ZNF143	11_9516186

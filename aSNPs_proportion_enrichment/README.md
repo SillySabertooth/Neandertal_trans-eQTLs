@@ -1,0 +1,3 @@
+The **enrich_test.R** includes the base idea of an enrichment test, <br>
+the implementation relates to the "*Trans-eQTLs in GTEx and eQTLGen*" section in the **Results**, the 3rd paragraph that starts with <br>
+*We compared the proportion of significant Neandertal trans-eQTLs to the fraction in 100 same size random sets of frequency-matched non-archaic variants in the pool of 10,317 eQTLGen trans-eQTL SNPs* (c)

@@ -2,6 +2,6 @@
 
 **snippet.find_dependent_SNPs_by_R2.R** has an algorithm for collapsing SNPs into independent sets of interlinked variants <br>
 
-The implementation directly relates to the enrichment test in *aSNPs_proportion_enrichment* folder, as well as was used to collapse dependent aSNPs that are linked to a-cTFs <br>
+The implementation directly relates to the enrichment test in *aSNPs_proportion_enrichment* folder, as well it was used to collapse dependent aSNPs that are linked to a-cTFs (the folder example) <br>
 
 The auxiliary files are i) list of aSNPs to collapse ii) pairwise R2 information for the aSNPs 

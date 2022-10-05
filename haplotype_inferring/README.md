@@ -6,4 +6,4 @@ the code was used to infer haplotypes which in turn i) help to gather putative m
 The auxiliary file has pairwise R2 linkage information of aSNPs around 500kb of the target example aSNP <br>
 
 Mainly, haplotypes were used to elaborate on regulatory potential of a-cTFs aSNPs in the **Discussion**, the 4th paragraph that starts with <br>
-*However, our results are primarily based on information from association analyses and computational prediction algorithms.*(c)
+*However, our results are primarily based on information from association analyses and computational prediction algorithms*(c)

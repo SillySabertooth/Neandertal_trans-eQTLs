@@ -1,4 +1,4 @@
-The folder consists of the following files:  <br>
+The folder consists of the following script files:  <br>
 1. **snippet.create_TFTG_DB.plusMotifmap.sh** - mutating of Human TFTG database  <br>
 2. **snippet.process_TFTG.R** - processing of the obtained table  <br>
 3. **snippet.create_Harmonizome.R** - merging Harmonizome databases  <br>
